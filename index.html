@@ -195,6 +195,7 @@
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
               
     <div class="timeline">
             <div class="container left">	<div class="content">	<h2>	9	December		</h2>	<p>2359
@@ -269,5 +270,15 @@
                     <div class="container right">	<div class="content">	<h2>	11	January		</h2>	<p>0025
                     Arrive in Singapore</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>	</div>	</div>      
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.display = "block";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+    </script>
 </body>
 </html>
