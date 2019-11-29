@@ -205,13 +205,13 @@ body {
     <h1 style="color: white;">Contacts</h1>
     <br>
     <div class="timeline">
-            <div class="container left">	<div class="content">	
+            <div class="container left" style="height: 100px">	<div class="content" >	
                 <h2>Please Enter the Password to get the Emergency Contacts:</h2>
-                <a>Password:</a> <input type="password" id="myPsw" value="psw123">
+                <a>Password:</a> <input type="password" id="myPsw" value="">
                 <p></p>
                 <button onclick="myFunction()">Enter</button>
 
-                <p style="color:red" id="error"></p> 
+                <p style="color:red" id="error"></p>    
                 <p id="raiyanContact"> </p>
                 <p id="floContact"> </p>
                 <p id="juContact"> </p>
@@ -222,7 +222,7 @@ body {
                         function myFunction() {
                             if(document.getElementById("myPsw").value == "raiyan"){
                                 var x = "Raiyan:\n +65 8333 1562\n\n";
-                                var x1 = "Florinda:\n +39 334 256 8879\n\n";
+                                var x1 = "Florinda: +39 334 256 8879";
                                 var x2 = "Juliano:\n +65 8318 2797\n\n";
                                 var x3 = "Samira:\n xxxxxxxxxxxx\n\n";
                                 document.getElementById("raiyanContact").innerHTML = x;
@@ -305,36 +305,6 @@ body {
 
 
     </div>
-    
-    <script>
-            function myFunction() {
-                if(document.getElementById("myPsw").value == "raiyan"){
-                    var x = "Raiyan:\n +65 8333 1562\n\n";
-                    var x1 = "Florinda:\n xxxxxxx\n\n";
-                    var x2 = "Juliano:\n +65 8318 2797\n\n";
-                    var x3 = "Samira:\n xxxxxxxxxxxx\n\n";
-                    document.getElementById("raiyanContact").innerHTML = x;
-                    document.getElementById("floContact").innerHTML = x1;
-                    document.getElementById("juContact").innerHTML = x2;
-                    document.getElementById("samiraContact").innerHTML = x3;
-
-                    //empty error message
-                    var errorMessage = "";
-                    document.getElementById("error").innerHTML = errorMessage;
-                }
-                else{
-                    var x = "";
-                    var x1 = "";
-                    var x2 = "";
-                    var x3 = "";
-                    var errorMessage = "The password you have entered is incorrect!";
-                    document.getElementById("error").innerHTML = errorMessage;
-
-                }
-            
-            }
-    </script>
-</div>
 
 <script>
 function openNav() {
