@@ -1,0 +1,64 @@
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+body, button, input, select, textarea {
+  font-family: "Arial";
+}
+@media (max-width: 900px) 
+{
+    #tab
+    {
+        display: none;
+    }
+}
+.sticky {
+  position: absolute;
+  top: 45px;
+  left:45px;
+  right:45px;
+
+
+}
+.padding{
+padding-top: 10px;
+padding-right: 15px;
+}
+
+.banner  {
+  background-image: url("background.PNG");
+  background-color: #cccccc;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 100;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#loading-image {
+  /* position: absolute; */
+  top: 100px;
+  /* margin: 0 auto; */
+  /* left: 240px; */
+  z-index: 100;
+  width: 100px;
+}
+
+.loading.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+      opacity: 0;
+      visibility: hidden;
+  }
+}
