@@ -14,7 +14,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
 </head>
 
-<body>
+<body style="background-color: #fcfcfc;">
     <div class="loading">
         <img id="loading-image" src="img/greenwatch-loader.gif" alt="Loading..." />
       </div>
@@ -51,9 +51,31 @@
 <!-- Summary Section -->
     <section class="section" id="summary">
         <div class="container has-text-centered">
-            <button class="button is-small is-success is-medium modal-button" data-target="#preamble" aria-haspopup="true">Read the full preamble</button>
+            <div class="btn-group">
+                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59;" data-target="#preamble" aria-haspopup="true">Preamble</button>
+                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59;"data-target="#analysis" aria-haspopup="true">Analysis</button>
+                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59;"data-target="#otherParties" aria-haspopup="true">Other Parties</button>
+                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59;"data-target="#FAQ" aria-haspopup="true">FAQ</button>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="container has-text-left">
+            <b>The climate crisis will be the defining crisis of our generation.</b> To truly emerge stronger from the pandemic, we cannot go back to normal. A green and just recovery is the only way to secure a better and fairer society for all of us. Our scorecard summarises each party’s stances on the various issues in our Policy Brief, to provide voters with a guide for the upcoming elections. Each party was scored according to its capacity for action on a scale of -90 to +90: the PAP (+8), on the policies it has implemented; the WP (+14), on its Parliamentary speeches and questions; the SDP (+16), on its climate and other policy papers.
             <br>
             <br>
+            The <b>PAP Government</b> scored well in the transport, adaptation, and buildings sections  due to their clear, well articulated plans in these domains. In contrast, the <b>WP and SDP</b> scored well in the collective action section, owing to significant contributions from both parties towards strengthening democracy and encouraging public participation. For championing expanded social welfare policies, they also scored well in the equity section. 
+            <br>
+            <br>
+            <b>All parties have significant areas for improvement, especially their positions on the fossil fuel industry.</b> The PAP was penalised heavily for their clear, continued support for expanding the role of fossil fuels in Singapore. The WP, on the other hand, has no clear stand on the fossil fuel industry. While the SDP has criticised the close ties between the state and Big Oil, it needs clear plans in order to back up its statements of intent.
+            <br>
+            <br>
+            We look forward to seeing all candidates speak up more about climate issues in the run-up to the elections. As voters, we also play an important role. Join our <a href="http://tinyurl.com/NGWatch" target="blank">Neighbourhood Greenwatch</a> initiative to push your candidates for ambitious climate commitments!
+        </div>
+        <br>
+        <br>
+        <div class="container has-text-centered">
             <!-- Summary Section - Table -->
             <table class="table is-bordered is-fullwidth is-hoverable" style="max-width: 500px; margin: auto;">
                 <thead>
@@ -129,12 +151,12 @@
                                 -1                              
                                 </p>
                             </td>
-                            <td style="background-color: #e8efbc;">
+                            <td >
                                 <p>
                                 +2*  
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
                                 +3
                                 </p>
@@ -149,12 +171,12 @@
                                 -2                              
                                 </p>
                             </td>
-                            <td style="background-color: #e8efbc;">
+                            <td >
                                 <p>
                                 +1*  
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
                                 +3
                                 </p>
@@ -189,12 +211,12 @@
                                 -2                              
                                 </p>
                             </td>
-                            <td style="background-color: #e8efbc;">
+                            <td >
                                 <p>
                                 -1* 
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
                                 +2*
                                 </p>
@@ -249,12 +271,12 @@
                                 -1                              
                                 </p>
                             </td>
-                            <td style="background-color: #e8efbc;">
+                            <td >
                                 <p>
                                 +4*  
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
                                 +5*
                                 </p>
@@ -269,12 +291,12 @@
                                 -2                              
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
                                 +2*  
                                 </p>
                             </td>
-                            <td style="background-color: #e8efbc;">
+                            <td >
                                 <p>
                                 +1*
                                 </p>
@@ -289,9 +311,9 @@
                                 +3                              
                                 </p>
                             </td>
-                            <td>
+                            <td style="background-color: #e8efbc;">
                                 <p>
-                                +2*  
+                                +3  
                                 </p>
                             </td>
                             <td>
@@ -333,9 +355,9 @@
                             </td>
                             <td>
                                 <p>
-                                <b>+13</b>
+                                <b>+14</b>
                                 </p>
-                                <p style="font-size: small;">(17 NA)</p>
+                                <p style="font-size: small;">(16 NA)</p>
                             </td>
                             <td>
                                 <p>
@@ -351,8 +373,13 @@
         <br>
         <br>
 
+<!-- Just a link to bring the page to the summary from the button above -->
+        <div id="papSummary">
+            <br>
+            <br>
+        </div>
 <!-- Summary Section - PAP Summary and score -->
-        <div class="container has-text-left">
+        <div class="container has-text-left" >
             <h2 class="title has-text-centered" style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:35px" ></h2>
             <img src="img/PAP score_1.png" alt="climate ambitions" width="600">
         </div>
@@ -365,11 +392,11 @@
 <!-- Summary Section- WP Summary and score -->
 <div class="container has-text-left">
     <h2 class="title has-text-centered" style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:35px" ></h2>
-    <img src="img/WP score_1.png" alt="climate ambitions" width="600">
+    <img src="img/WP score fixed.png" alt="climate ambitions" width="600">
 </div>
 <br>
 <div class="container has-text-left">
-    Since 2011, the Workers’ Party (WP) has held 6 elected and 3 non-constituency seats in Parliament. The WP Members of Parliament (MPs) have used this opportunity to probe the incumbent on stronger environmental and social policies, performing marginally better in overall scoring than the incumbent government. The party performed well in the nature and transport sections because its MPs have consistently raised issues such as conservation, public transport affordability, and electric vehicle infrastructure in parliament, pushing the incumbent to do better in these areas. The party also performed well in collective action, given it’s long-standing support for transparency and civil discourse. However, the WP only slightly addressed many domains, such as climate ambition, energy, industry, and buildings, leading to many gaps in scoring. Additionally, the party’s environmental concerns appear disproportionately focused on single-use plastics instead of more significant  contributors to the climate crisis, most notably Singapore’s petrochemical industry. As the only opposition party with a presence in Parliament, the WP can and must do more to re-center the political discussion on the climate crisis, both in terms of its impacts on vulnerable Singaporeans and the role Singapore plays in creating it.
+    Since 2011, the Workers’ Party has held 6 elected and 3 non-constituency seats in Parliament. Workers’ Party Members of Parliament (MPs) have used this opportunity to probe the incumbent on stronger environmental and social policies, performing marginally better in overall scoring than the incumbent government. The party performed well in the nature and transport sections because its MPs have consistently raised issues such as conservation, public transport affordability, and electric vehicle infrastructure in parliament, pushing the incumbent to do better in these areas. The party also performed well in collective action, given its long-standing support for transparency and civil discourse. However, the party could have been bolder in many domains, such as climate ambition, energy, industry, and buildings, leading to many gaps in scoring. Furthermore, in spite of its positive contribution in parliament, Greenwatch would like to see the party adopt more ambitious plans in its election manifestos. In its <a href="https://www.wp.sg/manifesto/" target="blank">2020 election manifesto</a>, its only climate pledges were for a 10% renewable energy target and a reduction in single-use plastics. As the largest opposition party, the Workers’ Party can do more to re-center the political discussion on the climate crisis; both in terms of its impacts on vulnerable Singaporeans and the role Singapore plays in creating it.
 </div>
 <br>
 <br>
@@ -390,8 +417,9 @@
         <div class="modal" id="preamble">
             <div class="modal-background"></div>
                 <div class="modal-card">
-                    <header class="modal-card-head">
-                    <p class="modal-card-title">Preamble</p>
+                    <header class="modal-card-head" style="background-color: #4c7a00; color: #FCFCFC;">
+                        <div class="modal-card-title" style="height: auto; word-wrap: break-all; color: #e3f6bc; text-align: center;"><b>Preamble</b>
+                        </div>
                     </header>
                     <section class="modal-card-body">
                     <div class="content">
@@ -415,18 +443,176 @@
                         <p>Greenwatch is a politically nonpartisan campaign. Our scoring is meant to reflect Greenwatch’s assessment of each party’s policies based on our environmental criteria, which draws upon and applies the recommendations of IPCC and other renowned climate science to Singapore’s context.
                             <br>
                             <br>
-                            We have created a scale from -3 to +3 to evaluate each party’s policies in relation to our policy brief. A positive score means that the party has entirely, substantially or partially met our ask(s). A score of NA means that there is insufficient information to score the party on that environmental criteria. A negative score means either that (a) the party might have made positive commitments, but we have considerable doubt or concerns about the legitimacy of these commitments or (b) that the party has either actively committed to or passively supported policy actions that lead to more carbon emissions and exacerbate the climate crisis.                          
+                            We have created a scale from -3 to +3 to evaluate each party’s policies in relation to our policy brief. A positive score means that the party has entirely, substantially or partially met our ask(s). A score of NA means that there is insufficient information to score the party on that environmental criteria. A negative score means either that (a) the party might have made positive commitments, but we have considerable doubt or concerns about the legitimacy of these commitments or (b) that the party has either actively committed to or passively supported policy actions that lead to more carbon emissions and exacerbate the climate crisis.                       
                         </p>
-                        </div>
+                    </div>
                     </section>
                     <section class="modal-card-foot">
-                        <div class="container has-text-centered">
+                    <div class="container has-text-centered">
                         <button class="delete" aria-label="close"></button>
                     </div>
                     </section>
-        </div>
+                </div>
             </div>
-    </div>
+        </div>
+
+        <!-- Analysis Popup -->
+        <div class="modal" id="analysis">
+            <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head" style="background-color: #4c7a00; color: #FCFCFC;">
+                        <div class="modal-card-title" style="height: auto; word-wrap: break-all; color: #e3f6bc; text-align: center;"><b>Analysis</b>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+
+                    <div class="content">
+                    <h3 class="title is-4">Comparative Summary</h3>
+                    <p>Only the People’s Action Party (PAP) government, Workers’ Party (WP), and Singapore Democratic Party (SDP) have released, in one form or another, sufficient information on their climate policy stances to be evaluated in the Greenwatch Scorecard. The parties scored +8, +13, and +16 respectively, on a scale of -90 to +90. This summary will highlight key differences between the parties’ scores in the 11 sub-sections.
+                        <br>
+                        <br>
+                        While Climate Scorecards in other countries may assess parties on equal footing, Greenwatch recognises the asymmetrical quality of Singaporean politics. Each party was largely scored according to its capacity for action: the PAP government, on the policies it has implemented; the WP, on its Parliamentary speeches and questions; the SDP, which did not have the opportunity to do either, was scored on its 40-page climate policy paper. Additionally, the Scorecard considered statements made by politicians from all the parties, due to the dearth of climate considerations on all three parties’ official platforms.
+                        <br>
+                        <br>
+                        The PAP Government scored well in the transport, adaptation, and buildings sections. This was due to their clear, well articulated plans for greater investment in public transport, climate mitigation infrastructure, and also waste reduction. In contrast, the two opposition parties scored well in the collective action section, owing to significant contributions from both parties towards strengthening democracy and encouraging public participation. For championing expanded social welfare policies, they also scored well in the equity section. 
+                        <br>
+                        <br>
+                        All three parties have significant areas for improvement, the biggest being their respective positions on the fossil fuel industry. The PAP was penalised heavily for their clear, continued support in expanding the role of fossil fuels in Singapore. The WP, on the other hand, has no clear stand on the fossil fuel industry. This might be interpreted as tacit support for the status quo set by the PAP government, and can only change when the party clarifies its position. Lastly, the SDP fared much better than both parties, having criticised the close ties between the state and Big Oil. However, it needs to have a clear plan on divestment from fossil fuels to back up its statements of intent.
+                        <br>
+                        <br>
+                        Overall, all three parties have made a promising start on thinking about what is needed to combat the climate crisis, but much more work still needs to be done. Greenwatch hopes that the scorecard will go some way in the three parties with guidelines from which to craft future climate policies.                      
+                    </p>
+                    </div>
+                    </section>
+                    <section class="modal-card-foot">
+                    <div class="container has-text-centered">
+                        <button class="delete" aria-label="close"></button>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Parties Popup -->
+        <div class="modal" id="otherParties">
+            <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head" style="background-color: #4c7a00; color: #FCFCFC;">
+                        <div class="modal-card-title" style="height: auto; word-wrap: break-all; color: #e3f6bc; text-align: center;"><b>Other Parties</b>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+
+                    <div class="content">
+                    <p>We have reached out to other political parties to find out more about their climate policies, and will update this section soon!</p>
+                    </div>
+                    </section>
+                    <section class="modal-card-foot">
+                    <div class="container has-text-centered">
+                        <button class="delete" aria-label="close"></button>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Popup -->
+        <div class="modal" id="FAQ">
+            <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head" style="background-color: #4c7a00; color: #FCFCFC;">
+                        <div class="modal-card-title" style="height: auto; word-wrap: break-all; color: #e3f6bc; text-align: center;"><b>FAQ</b>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+
+                    <div class="content">
+                    <h5>Who are the people involved in grading the climate scorecard, and what are their credentials in the field of environmental science and policy? Were experts in the respective fields or people working in these industries consulted when scoring those categories?</h5>
+                    <p>The Greenwatch team consists of people from SG Climate Rally and Speak For Climate. We undertook around 4-5 months of research, poring over policy papers, conversing with government officials and political parties, to obtain a thorough understanding of their climate policies. All facts presented in the government scorecard have been clarified with government agencies as well. Therefore, it is unnecessary to shore up the factual bedrock of our scorecard with our own ‘credentials’.
+                        As for the scores themselves, they are entirely the opinion of the Greenwatch team, and we encourage Singaporeans to look at the details for each question in the <a href="http://scorecard.sgclimaterally.com/#climate-Ambition">scorecard</a> and see for themselves the credibility of our justifications. If you believe that there are significant points that we might have overlooked, feel free to contact us at <a href="sg.climaterally@gmail.com" target="blank">sg.climaterally@gmail.com</a>.
+                        <br>
+                        <br>
+                        Furthermore, in constructing the scoring methodology, we also consulted numerous notable academics in the environmental humanities and sciences, though many of them preferred to remain unnamed. This is because involvement in political activities in Singapore could threaten their livelihoods, an unfortunate reality of the present political climate.
+                    </p>
+
+                    <h5>Is politicising climate change the best way to bring attention to the issue? </h5>
+                    <p>Climate change is an inherently political issue. Around the world, companies that profit from or contribute to the climate crisis spend millions of dollars lobbying politicians to prevent stronger climate legislation, nationally or internationally; in many countries, fossil fuel industries are closely tied to structures of political power, entrenching their presence. 
+                        <br>
+                        <br>
+                        In Singapore, the de-politicisation of issues like climate change is, in fact, a political action. It privileges status quo understandings of the world and methods of governance, such as technocratic leadership and financial orthodoxy, over others. While these understandings are not inherently bad in all contexts, if left unchallenged they will uphold the existing global fossil fuel-led growth system, as they have for decades. This is the same system that will continue to exacerbate the climate crisis. Therefore, in acknowledging the politics of climate change, we are able to challenge the assumptions that underpin these understandings and methods of governance; only through doing so can the fossil fuel system be gradually drawn down, and a habitable climate preserved.
+                        </p>
+
+                    <h5>Are we holding the incumbent (PAP) government to a higher standard than opposition parties, who are able to voice policies that they are not in a position to implement?</h5>
+                    <p>We have designed our scorecard to be as comprehensive as possible, covering many different areas of environmental policy. Given this range of scoring categories, it can be expected that not every party, in particular the smaller parties, will have detailed solutions in every area. In such cases, we will give the party aN NA on that particular metric. More well-resourced parties will have more opportunities to score higher if they can come up with good ideas and proposals, but on the flipside they are also liable to more negative scores in areas where status quo policies are detrimental to a habitable climate. We designed our scoring system with this in mind so that we can grade parties with a degree of fairness in view of their relative capacities.  </p>
+
+                    <h5>How can opposition parties help to bring about better outcomes for Singapore, even if they articulate a desire for stronger climate policies?</h5>
+                    <p>Even if opposition parties are not in a position to form a government in the next election, they play the critical role of voicing alternative visions to status quo policies. If opposition parties have bolder climate policies with clear support from voters, the incumbent party is forced to respond to win the support of climate-concerned voters. </p>
+
+                    <h5>How can Singapore draw down its fossil fuel industry if the establishment of renewable industries as an alternative is not feasible in Singapore?</h5>
+                    <p>One common misconception is that Singapore’s oil refining and petrochemical industry functions primarily to supply energy for Singapore’s power needs. These industries are in fact <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301421517301714" target="blank">export-oriented</a> and serve global markets. Decarbonisation requires reshaping these export-oriented sectors to reduce their environmental impacts, as well as a transition towards renewable energy sources for our domestic needs.
+                        <br>
+                        <br>
+                        Another point to note is that increasing the share of renewable energy, namely solar, in our energy mix is feasible. A <a href="https://www.eco-business.com/news/solar-could-meet-43-of-singapores-power-demand-during-mid-day-by-2050-study/" target="blank">recent study</a> published by the Solar Energy Research Institute of Singapore (SERIS) at the National University of Singapore (NUS) and commissioned by the Singapore government has highlighted that with the right mix of policies, Singapore’s solar capacity could grow to 5 gigawatt-peak (GWp) by 2050, up from 350 megawatt-peak (MWp) today. This means that by 2050, solar energy generated locally could meet 43% of electric power demand during mid-day. Furthermore, even if few off-the-shelf solutions are currently suited to Singapore’s context, there remains the potential to use novel and cost-effective urban solar applications.
+                        <br>
+                        <br>
+                        Regional projects also represent untapped potential. As mentioned in our scorecard, the Singapore government could also deepen its commitments in regional energy projects, for instance through the ASEAN Power Grid or bilateral partnerships such as the <a href="https://www.straitstimes.com/business/economy/20b-plan-to-supply-solar-power-from-australia-to-spore" target="blank">Australian-Singapore Power Link</a>, which is projected to supply a fifth of Singapore’s power needs through solar energy.</p>
+
+                    <h5>Are there viable replacements for other important by-products of the petrochemical industry if we remove it or reduce its presence in Singapore?</h5>
+                    <p>Non-fuel products of the petrochemical industry include the chemical building blocks for plastics, detergents, adhesive, and  other products, known as synthetic polymers. These synthetic polymers are a small fraction of the yield from a barrel of crude oil; most of the products yielded are various fuels.
+                        <br>
+                        <br>
+                        Some, but not all, of these materials will remain important. On the other hand, Singapore’s emissions will continue rising if we continue to expand the industry. Therefore, we must reconfigure production to retain necessary products while drawing down the industry so that it is no longer geared towards maximising profits at the cost of environmental and human harm. There are ways of making current processes more sustainable - such as by involving a mix of emerging technologies, from using sustainably-sourced chemical feedstocks to capturing carbon emitted as a by-product of industrial processes - but this must be done in tandem with a targeted drawdown of the industry, not an expansion.
+                        <br>
+                        <br>
+                        Ultimately, if a habitable climate is to exist, emissions from the petrochemical industry will have to decline at some point, and preparing for that early by drawing down production, retraining workers, and heavily researching alternatives is the best way forward.
+                        </p>
+
+                    <h5>With a carbon tax, won’t corporations simply pass additional costs on to consumers, increasing cost of living without actually reducing emissions?</h5>
+                    <p>By putting an appropriate price on carbon emissions, we ensure that the prices of fossil fuels reflect the costs of climate disruption to society, and leverage the capacity of the market to enable emissions reductions. It also signals to polluting companies that their social legitimacy is dwindling. 
+                        <br>
+                        <br>
+                        That said, a large proportion of Singapore’s emissions are in sectors that serve export markets. This means that much of the share of these costs will be borne by corporations, as well as foreign consumers. With a well-designed carbon tax policy, wealth can be transferred from corporations and global consumers to the Singapore budget, which can then be distributed back to the Singapore people.
+                        <br>
+                        <br>
+                        Greenwatch believes that revenues from carbon taxes should be held in a differentiated fund and progressively redistributed according to residents’ needs as carbon dividends. This arrangement should be instituted into legislation. Such an arrangement would be fundementally different from the current system, which gives households one-off utilities rebates to offset the rise in cost of electricity and gas. These rebates may or may not be drawn from the carbon tax revenues collected. Carbon dividends, on the other hand, give citizens a direct benefit from the carbon tax policy.
+                        </p>
+
+                    <h5>How will the government’s transport decarbonisation plan work, given that certain sectors like long distance road vehicles, ships and planes cannot be electrified and will need to rely on internal combustion engines?</h5>
+                    <p>The government’s attempts at decarbonisation in land transport focus mainly on last mile transport and moving away from a car-first public transport policy. However, there is room for more measures that reflect the full social cost of car ownership and reclaim car space through people-centric street design.
+                        <br>
+                        <br>
+                        As for decarbonising the shipping and airline industries, there is still much scientific work to be done. Regarding emissions in these sectors, the government has articulated several policies. Singapore will participate in (1) the voluntary phase of the Carbon Offsetting and Reduction Scheme for International Aviation (CORSIA) to freeze carbon footprint, improve energy efficiency and study the use of sustainable aviation fuels, and (2) launch the Maritime Singapore Decarbonisation Blueprint 2050 next year, placing $40 million under the Maritime GreenFuture Fund. More details on this have yet to be released.
+                        </p>
+
+                    <h5>Apart from renewables and divesting from fossil fuels, what are Singapore’s prospects for setting up an economy providing services for carbon sequestration?</h5>
+                    <p>The government has said that technologies such as carbon capture and storage (CCS) are one of three key thrusts in its low emissions development strategy, but has not shared further details. The financial and technological viability of such a solution is still being explored. Therefore, a more detailed CCS R&D plan would be immensely helpful to further reduce industrial emissions, which make up 60% of our total emissions.</p>
+
+                    <h5>Will liquid alternative fuels such as biofuels, ammonia and hydrogen also allow the transition of jobs from the petrochemicals to renewable energy industry?</h5>
+                    <p>Alternative forms of energy are an important part of the green transition and the shift away from fossil fuels. The National Climate Change Secretariat (NCCS) has mentioned in its Low Emissions Development Strategy (LEDS) that low-carbon hydrogen is an option that the Singapore government is keen on exploring. However, this alternative energy source is still in a nascent stage of development and may not be a viable option in the near term. Nonetheless, it is key that Singapore is proactive in researching and pioneering these alternatives to generate jobs for Singaporeans as the fossil fuel industry continues to decline globally.</p>
+
+                    <h5>How much R&D is the government putting into renewable energy, and should environmental groups also try to influence the private sector to develop the necessary technology?</h5>
+                    <p>The government is currently pushing for solar deployment through the SolarNova programme. Additionally, a few private actors have announced large investments into solar energy projects around the region. However, the outcomes of these projects are ultimately based on financial considerations, and the government has indicated that it does not want to “interfere” with market signals in this area.
+                        <br>
+                        <br>
+                        As much as corporate initiatives are welcome, our green transition must not be dependent on market pressures; the government should take a stronger role in developing this sector, such as through Industry Transformation Maps (ITMs), which it has drawn up for other key industries, and the Emerging Stronger Taskforce, that it has set up to provide recommendations for a post-Covid-19 economy. The green transition is no less important.
+                        </p>
+
+                    <h5>Is data availability and disclosure an important issue around climate action; has it been evaluated in the Greenwatch scorecard and included in the #AskYourCandidate question list?</h5>
+                    <p>While data availability is not specifically mentioned in the scorecard or question list, Greenwatch does consider it a significant issue that overlaps with climate action. Under the ‘collective action’ category, the scorecard asks the following question: “How transparent and open to participation is the government with the public and other civil society groups during its policymaking processes?” The scorecard assigns a score of -1 to this question due to several factors associated with lack of transparency around government data and policy making processes. More information can be found under the ‘details’ tab of this question on the scorecard.</p>
+
+
+                    </div>
+                    </section>
+                    <section class="modal-card-foot">
+                    <div class="container has-text-centered">
+                        <button class="delete" aria-label="close"></button>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        
 
 </section>
 <!-- CLIMATE AMBITION -->
@@ -589,7 +775,7 @@
                                     <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                                     People's Action Party
                                 </h3>
-                                    <p>Our ‘reductions target’ constitutes an absolute emissions increase until 2030, which does not meet our commitment to reduce emissions as soon as possible. A continued increase in emissions until 2030 fails to model a pathway to the IPCC target for 1.5 degree warming.</p>
+                                    <p>The PAP government’s ‘reductions target’ constitutes an absolute emissions increase until 2030, which does not meet our commitment to reduce emissions as soon as possible. A continued increase in emissions until 2030 fails to model a pathway to the IPCC target for 1.5 degree warming.</p>
                             </div>
 
                             <div class="content">
@@ -654,6 +840,7 @@
                         <div class="content">
                             <h3 class="title is-4">Elaboration</h3>
                             <ul>
+                                <li>The WP’s 2020 election manifesto sets a 10% renewable energy target for Singapore by 2025 (30); this does not, however, constitute a target on carbon emissions reduction.</li>
                                 <li>In 2019, the party’s published stance on climate change voiced an intention to ‘go beyond’ the emissions indicator as highlighted by the current government.</li>
                                 <li>However, there is no proposed climate target set by the party, and no timeframe for this improvement.</li>
                             </ul>
@@ -747,10 +934,7 @@
                             <td><p class="has-text-centered">-3</p></td>
                             <td>Engages in climate denialism</td>
                         </tr>
-                        <tr>
-                            <td><p class="has-text-centered">2</p></td>
-                            <td>Declare a Climate Emergency</td>
-                        </tr>
+
                         <tr>
                             <td><p class="has-text-centered">3</p></td>
                             <td>Announce a whole-of-government Climate Change Act that legally commits the government to climate change mitigation</td>
@@ -808,10 +992,7 @@
                             <td><p class="has-text-centered">-3</p></td>
                             <td>Engages in climate denialism</td>
                         </tr>
-                        <tr>
-                            <td><p class="has-text-centered">2</p></td>
-                            <td>Declare a Climate Emergency</td>
-                        </tr>
+
                         <tr>
                             <td><p class="has-text-centered">3</p></td>
                             <td>Announce a whole-of-government Climate Change Act that legally commits the government to climate change mitigation</td>
@@ -833,7 +1014,7 @@
                 <ul>
                     <li>During the second reading of the <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=bill-248" target="blank">2018 Carbon Pricing Bill</a> and in their 2019 statement, the party proposed multiple amendments to existing policies, covering domains such as biodiversity, urban planning, and Environmental Impact Assessments (EIA). However, the party has yet to produce an overarching climate change plan.</li>
                     <li>Their <a href="https://www.wp.sg/wp-content/uploads/2015/08/Manifesto-2015-Official-online-version.pdf" target="blank">2015 manifesto</a> proposed the implementation of a regularly updated Climate Change Risk Assessment.</li>
-                    <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1322" target="blank">2020 COS Speech</a>, WP MP Daniel Goh recommended that it should be required that Government bodies and large companies conduct annual carbon auditing. He argued that carbon auditing can help organisations “understand their greenhouse inventory, isolate each emission source, and hence, determine and model emission reduction strategies, their payback and viability”. He also advocated for carbon auditing subsidies for companies for the next 10 years. </li>
+                    
                     </ul>
             </div>
 
@@ -867,10 +1048,7 @@
                             <td><p class="has-text-centered">-3</p></td>
                             <td>Engages in climate denialism</td>
                         </tr>
-                        <tr>
-                            <td><p class="has-text-centered">2</p></td>
-                            <td>Declare a Climate Emergency</td>
-                        </tr>
+
                         <tr>
                             <td><p class="has-text-centered">3</p></td>
                             <td>Announce a whole-of-government Climate Change Act that legally commits the government to climate change mitigation</td>
@@ -1284,14 +1462,14 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Worker's Party
                     </h3>
-                    <p>WP has not articulated any plans to combat wealth inequality even though they have alluded to recognising that the climate crisis will worsen this particular issue.</p>
+                    <p>The WP has proposed several policies to combat wealth inequality. While recognising that the climate crisis will worsen this particular issue, the party has not articulated any plans that target climate-specific inequalities of this nature.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>WP NCMPs have expressed concerns about mitigating rising food prices as these may worsen food insecurity and may increase the cost of living. This suggests that WP recognises that wealth inequality might worsen in light of the climate crisis.</li>
-                        <li>They have proposed numerous policies to combat income inequality in their 2015 manifesto, like a minimum wage, higher tax rates on the top income bracket, and greater funding for neighbourhood schools. </li>
+                        <li>They have proposed numerous policies to combat income inequality in their <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">2020 manifesto</a>, like a minimum wage (p.21), and greater funding for less popular schools (p.13).</li>
                     </ul>
                 </div>
 
@@ -1404,9 +1582,9 @@
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>There is no timeline for decarbonisation, and the government has not articulated how it will protect the livelihoods of those affected by the green transition.</li>
-                        <li>It has, however, communicated its intention to do so in the past. The government has acknowledged that they are thinking about a <a href="https://www.channelnewsasia.com/news/commentary/low-carbon-singapore-renewable-energy-oil-petrochem-4-switches-12389148" target="blank">post fossil fuel future.</a></li>
-                        <li>Additionally, apart from <a href="https://www.straitstimes.com/politics/budget-will-contain-measures-to-help-singaporeans-and-businesses-chan-chun-sing" target="blank">existing reskilling programmes</a>, the government has <a href="https://www.nccs.gov.sg/docs/default-source/default-document-library/annex-for-singapore's-leds-public-consultation-response-(final).pdf" target="blank">assured</a> that it will ensure that workers have relevant skills and <a href="https://www.mot.gov.sg/news-centre/news/Detail/speech-by-senior-minister-of-state-for-transport-and-health-lam-pin-min-at-the-ministry-of-transport-s-committee-of-supply-debate-2020-sustainable-competitive-industries-and-sustainable-environment-with-a-focus-on-aviation-maritime-and-active-mobility/" target="blank">opportunities</a> for the green economy.</li>
+                        <li>There is no timeline for decarbonisation, and the PAP government has not articulated how it will protect the livelihoods of those affected by the green transition.</li>
+                        <li>It has, however, communicated its intention to do so in the past. The PAP government has acknowledged that they are thinking about a <a href="https://www.channelnewsasia.com/news/commentary/low-carbon-singapore-renewable-energy-oil-petrochem-4-switches-12389148" target="blank">post fossil fuel future.</a></li>
+                        <li>Additionally, apart from <a href="https://www.straitstimes.com/politics/budget-will-contain-measures-to-help-singaporeans-and-businesses-chan-chun-sing" target="blank">existing reskilling programmes</a>, the PAP government has <a href="https://www.nccs.gov.sg/docs/default-source/default-document-library/annex-for-singapore's-leds-public-consultation-response-(final).pdf" target="blank">assured</a> that it will ensure that workers have relevant skills and <a href="https://www.mot.gov.sg/news-centre/news/Detail/speech-by-senior-minister-of-state-for-transport-and-health-lam-pin-min-at-the-ministry-of-transport-s-committee-of-supply-debate-2020-sustainable-competitive-industries-and-sustainable-environment-with-a-focus-on-aviation-maritime-and-active-mobility/" target="blank">opportunities</a> for the green economy.</li>
                     </ul>
                 </div>
 
@@ -1462,7 +1640,7 @@
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>There is no timeline for decarbonisation, and WP has not articulated how it will protect the livelihoods affected by the green transition. </li>
-                        <li>However, their Redundancy Insurance scheme, which will provide a payout of 40% of a worker’s last drawn salary for up to six months (up to a monthly cap of 40% of the prevailing median wage), should the worker be made redundant, does show that the party recognises the need to protect the livelihood of workers. Whether or not this scheme will be robust enough to deal with the potential unemployment caused by the climate crisis remains to be seen.</li>
+                        <li>However, their <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">Redundancy Insurance scheme (p.7)</a>, which will provide a payout of 40% of a worker’s last drawn salary for up to six months (up to a monthly cap of 40% of the prevailing median wage), should the worker be made redundant, does show that the party recognises the need to protect the livelihood of workers. Whether or not this scheme will be robust enough to deal with the potential unemployment caused by the climate crisis remains to be seen.</li>
                         <li>Also, in the 2020 Debate on Annual Budget, Leon Perera articulated that “an incentive scheme could be deployed to attract local workers into sectors like renewable energy” when thinking about Singapore’s mid and long term outlooks. This demonstrates some foresight, suggesting that WP understands the need to shift away from current industries.</li>
                     </ul>
                 </div>
@@ -1580,9 +1758,9 @@
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>The government has only alluded to how <a href="https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/" target="blank">senior citizens, the sick</a> and <a href="https://sustainabledevelopment.un.org/content/documents/1549Climate_Action_Plan_Publication_Part_2.pdf" target="blank">communities living along coastlines</a> will be disproportionately affected by the climate crisis. Other communities, such as individuals with limited access to cooling (migrant workers in dormitories, low-income households, domestic workers with limited agency), or households that will have to combat rising food prices have not been addressed in any plan/policy.</li>
+                        <li>The PAP government has only alluded to how <a href="https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/" target="blank">senior citizens, the sick</a> and <a href="https://sustainabledevelopment.un.org/content/documents/1549Climate_Action_Plan_Publication_Part_2.pdf" target="blank">communities living along coastlines</a> will be disproportionately affected by the climate crisis. Other communities, such as individuals with limited access to cooling (migrant workers in dormitories, low-income households, domestic workers with limited agency), or households that will have to combat rising food prices have not been addressed in any plan/policy.</li>
                         <li>Additionally, Minister of State for Foreign Affairs, Sam Tan’s latest statement on future generations shouldering <a href="https://www.straitstimes.com/singapore/environment/future-generations-should-share-climate-change-burden-sam-tan" target="blank">“their share of the responsibility”</a> for combating the climate crisis is a belief that ignores the different levels of culpability. It unfairly puts the burden on younger and future generations that have contributed much less to the climate crisis.</li>
-                        <li>The government has alluded to the <a href="https://www.todayonline.com/singapore/policies-may-have-change-society-evolves-chan-chun-sing" target="blank">recognition of changing social systems and the need to change policies to take care of citizens under these new ways of living.</a> This is not in relation to the climate crisis though, and no recognition of its interconnectedness is highlighted. However, one can speculate that approaches/policies may change to reflect these contemporary social relations as time goes by.</li>
+                        <li>The PAP government has alluded to the <a href="https://www.todayonline.com/singapore/policies-may-have-change-society-evolves-chan-chun-sing" target="blank">recognition of changing social systems and the need to change policies to take care of citizens under these new ways of living.</a> This is not in relation to the climate crisis though, and no recognition of its interconnectedness is highlighted. However, one can speculate that approaches/policies may change to reflect these contemporary social relations as time goes by.</li>
                     </ul>
                 </div>
             </section>
@@ -2049,17 +2227,17 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>Progress on regional collaboration remains slow and mooted in the distant future. That said, the government has been working towards increasing its solar capacity and installing solar panels on HDB rooftops. However, this still fulfils only a small percentage of Singapore’s energy needs.</p>
+                    <p>Progress on regional collaboration remains slow and mooted in the distant future. That said, the PAP government has been working towards increasing its solar capacity and installing solar panels on HDB rooftops. However, this still fulfils only a small percentage of Singapore’s energy needs.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>Progress on collaboration with regional partners, in particular through the ASEAN Power Grid, remains slow in spite of the massive endowment of renewable resources in the region. Most of the headway made has been limited to the <a href="https://www.iea.org/reports/establishing-multilateral-power-trade-in-asean" target="blank">bilateral development of transmission infrastructure and trade.</a></li>
-                        <li>Even with the <a href="https://www.iea.org/reports/establishing-multilateral-power-trade-in-asean" target="blank">Lao PDR-Thailand-Malaysia-Singapore Power Integration Project (LTMS–PIP)</a>, a “pathfinder” multilateral power trading project, the Singapore government appears lukewarm in its commitment. As it stands today, the LTMS–PIP involves only the sale of electricity from Lao PDR to Malaysia, with Thailand acting as a transit country.</li>
-                        <li>There has been, nonetheless, some progress on this front. The government has announced the <a href="https://www.straitstimes.com/business/economy/20b-plan-to-supply-solar-power-from-australia-to-spore" target="blank">Australia-Singapore Power Link</a>, a long distance solar transmission project with Australia mooted for 2030. The Australia-Singapore Power Link is projected to supply a fifth of Singapore's power needs, helping to ease its dependence on imported liquefied natural gas.   </li>
-                        <li>The Singapore government has also announced a <a href="https://www.hdb.gov.sg/cs/infoweb/press-releases/30122019-ccg_mrp-hdb-increases-solar-target-from-220-mwp" target="blank">2GWp target for solar energy by 2030</a> (equivalent to 10% of Singapore’s peak daily electricity demand), with plans to fit <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">one in two HDB rooftops with solar panels</a> over the upcoming years. As of December 2019, HDB had installed solar PV systems <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">at about 2,200 HDB blocks</a>. In 2021, <a href="https://www.straitstimes.com/singapore/environment/pub-plans-massive-floating-solar-panel-system-in-reservoir" target="blank">PUB will be deploying a floating solar PV system on Tengah reservoir.</a></li>
-                        <li>However, the government will not provide subsidies to solar electricity generators <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">for fear that it will distort the market price signal.</a></li>
+                        <li>Even with the <a href="https://www.iea.org/reports/establishing-multilateral-power-trade-in-asean" target="blank">Lao PDR-Thailand-Malaysia-Singapore Power Integration Project (LTMS–PIP)</a>, a “pathfinder” multilateral power trading project, the PAP government appears lukewarm in its commitment. As it stands today, the LTMS–PIP involves only the sale of electricity from Lao PDR to Malaysia, with Thailand acting as a transit country.</li>
+                        <li>There has been, nonetheless, some progress on this front. The PAP government has announced the <a href="https://www.straitstimes.com/business/economy/20b-plan-to-supply-solar-power-from-australia-to-spore" target="blank">Australia-Singapore Power Link</a>, a long distance solar transmission project with Australia mooted for 2030. The Australia-Singapore Power Link is projected to supply a fifth of Singapore's power needs, helping to ease its dependence on imported liquefied natural gas.   </li>
+                        <li>The PAP government has also announced a <a href="https://www.hdb.gov.sg/cs/infoweb/press-releases/30122019-ccg_mrp-hdb-increases-solar-target-from-220-mwp" target="blank">2GWp target for solar energy by 2030</a> (equivalent to 10% of Singapore’s peak daily electricity demand), with plans to fit <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">one in two HDB rooftops with solar panels</a> over the upcoming years. As of December 2019, HDB had installed solar PV systems <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">at about 2,200 HDB blocks</a>. In 2021, <a href="https://www.straitstimes.com/singapore/environment/pub-plans-massive-floating-solar-panel-system-in-reservoir" target="blank">PUB will be deploying a floating solar PV system on Tengah reservoir.</a></li>
+                        <li>However, the PAP government will not provide subsidies to solar electricity generators <a href="https://www.reach.gov.sg/-/media/reach/reach-files/public-consultations/2020/nccs/public-consultation-on-developing-singapores-long-term-low-emissions-strategy/annex-for-singapores-leds-public-consultation-response.ashx" target="blank">for fear that it will distort the market price signal.</a></li>
                     </ul>
                 </div>
 
@@ -2108,14 +2286,16 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Workers' Party
                     </h3>
-                    <p>The Workers’ Party has consistently spoken up on increasing domestic access to various sources of clean energy including solar, nuclear and wind, but has not articulated a clear plan for increasing access to renewable energy. </p>
+                    <p>The Workers’ Party has consistently spoken up on increasing domestic access to various sources of clean energy including solar, nuclear and wind, and pledged to have 10% of energy needs met by renewable energy. </p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
+                        <li>WP aims to have 10% of Singapore’s energy needs met by renewable energy sources </li>
+                        <li>The party called for government R&D funding into reducing intermittency and ensuring smooth integration of renewable energy into the power grid</li>
                         <li>During the <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1308" target="blank">2020 COS debate</a>, the WP asked about the possibility of importing energy from Australia and of tapping into a pan-ASEAN renewable electricity grid which. The party probed Singapore’s prospects for engaging in further ASEAN-wide collaborations on green policies, following it’s questions on such projects in previous years.</li>
-                        <li>In the <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-934" target="blank">2017 COS debate</a>, the WP pointed out the inadequacy of implementing a carbon tax without setting a hard target for renewable energy. A WP MP advocated for a target of 10% renewable energy production by 2025. The MP also recommended linking the investment and use of renewable energy to carbon tax offsets, which can be partly funded by revenue from the carbon tax revenue in the initial years.</li>
+                        <li>The <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-934" target="blank">WP has recommnded</a> linking the investment and use of renewable energy to carbon tax offsets, which can be partly funded by revenue from the carbon tax revenue in the initial years.</li>
                         <li>Despite these engagements in individual debate speeches and questions, the WP has not articulated a party-wide plan for increasing domestic access to clean energy.</li>
                     </ul>
                 </div>
@@ -2233,7 +2413,7 @@
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>Minister for Trade and Industry (MTI) Chan Chun Sing has said that Singapore is <a href="https://www.straitstimes.com/opinion/the-will-to-defy-the-odds-of-history" target="blank">“thinking of a future away from fossil fuels”</a>, but has also said that natural gas will remain the dominant energy source for the next <a href="https://www.straitstimes.com/singapore/environment/natural-gas-to-remain-spores-key-energy-fuel-for-50-years" target="blank">50 years</a>. Worryingly, the faith that oil giants such as <a href="https://www.economist.com/briefing/2019/02/09/exxonmobil-gambles-on-growth" target="blank">Exxonmobil</a> and <a href="https://www.reuters.com/article/us-shell-climate-exclusive/exclusive-no-choice-but-to-invest-in-oil-shell-ceo-says-idUSKBN1WT2JL" target="blank">Shell</a> are also thinking of a future beyond fossil fuel seems misplaced. In 2019 Chan called Exxonmobil a “close and trusted partner” of Singapore at the multi-billion dollar expansion of its manufacturing complex on Jurong Island</li>
-                        <li>Even though the government claims that Singapore’s petrochemical industry is amongst the <a href="https://www.straitstimes.com/singapore/singapore-has-wealth-of-new-opportunities-to-exploit-chan" target="blank">cleanest</a> in the world, it now <a href="https://www.straitstimes.com/politics/parliament-about-75-of-industrial-emissions-are-from-refining-and-petrochemicals-sector" target="blank">accounts</a> for close to half of Singapore’s emissions together with the oil and gas industry.</li>
+                        <li>Even though the PAP government claims that Singapore’s petrochemical industry is amongst the <a href="https://www.straitstimes.com/singapore/singapore-has-wealth-of-new-opportunities-to-exploit-chan" target="blank">cleanest</a> in the world, it now <a href="https://www.straitstimes.com/politics/parliament-about-75-of-industrial-emissions-are-from-refining-and-petrochemicals-sector" target="blank">accounts</a> for close to half of Singapore’s emissions together with the oil and gas industry.</li>
                     </ul>
                 </div>
             </section>
@@ -2285,8 +2465,9 @@
                 </div>
 
                 <div class="content">
-                    <h3 class="title is-4"></h3>
+                    <h3 class="title is-4">Elaboration</h3>
                     <ul>
+                        <li>In its manifesto, the party said that new gas-fired power plants should not be built unless demand cannot be met from renewable sources (p.33). However, it does not elaborate on how existing fossil-fuel reliance will be reduced.</li>
                     </ul>
                 </div>
             </section>
@@ -2506,10 +2687,6 @@
                             <tr>
                                 <td><p class="has-text-centered">-3</p></td>
                                 <td>Repeal current carbon tax of $5/tCO2e, without any future plans to reintroduce the tax, or retain the current rate but introduce exemptions for heavy polluters</td>
-                            </tr>
-                            <tr>
-                                <td><p class="has-text-centered">-3</p></td>
-                                <td><a href="https://www.nccs.gov.sg/climate-change-and-singapore/reducing-emissions/carbon-tax" target="blank">$5/tCO2e</a> for industrial facilities that emit over 25,000 tCO2e</td>
                             </tr>
                             <tr>
                                 <td><p class="has-text-centered">3</p></td>
@@ -2866,15 +3043,15 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>It is unclear if or how the revenues are redistributed to citizens. The carbon tax revenue should be progressively redistributed to households according to needs. This gives citizens a direct stake in a policy that affects their daily lives, and ensures that the offsetting effect to the tax is not left up to the government’s discretion.</p>
+                    <p>It is unclear if or how the revenues are redistributed to citizens. The carbon tax revenue should be progressively redistributed to households according to needs. This gives citizens a direct stake in a policy that affects their daily lives, and ensures that the offsetting effect to the tax is not left up to the PAP government’s discretion.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>It is unclear if or how the carbon tax revenue is redistributed to citizens. As of yet, the government has shared that it expects to collect a carbon tax revenue of <a href="https://www.straitstimes.com/politics/carbon-tax-will-affect-mainly-large-polluters" target="blank">nearly $1 billion over</a> the first five years. Revenues will be used to fund green initiatives via two existing schemes: the Productivity Grant (Energy Efficiency) and the Energy Efficiency Fund. This includes measures by industry to reduce emissions and providing measures to ease the transition.</li>
+                        <li>It is unclear if or how the carbon tax revenue is redistributed to citizens. As of yet, the PAP government has shared that it expects to collect a carbon tax revenue of <a href="https://www.straitstimes.com/politics/carbon-tax-will-affect-mainly-large-polluters" target="blank">nearly $1 billion over</a> the first five years. Revenues will be used to fund green initiatives via two existing schemes: the Productivity Grant (Energy Efficiency) and the Energy Efficiency Fund. This includes measures by industry to reduce emissions and providing measures to ease the transition.</li>
                         <li>The impact on households has been estimated to be <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">about 1% point increase in total electricity and gas expenses on average.</a> <a href="https://www.straitstimes.com/singapore/singapore-budget-2018-carbon-tax-of-5-per-tonne-of-greenhouse-gas-emissions-to-be-levied" target="blank">Households will get help in the form of additional utilities rebates</a> through the GST Voucher U-Save scheme. Eligible HDB households will each receive $20 more per year for three years, which will cover the expected average increase in electricity and gas expenses for HDB households arising from the carbon tax.</li>
-                        <li>By not legislating that the progressive redistribution of the carbon tax revenue, this excludes citizens from having a stake in a policy that affects their daily lives and also leaves the continuity of the offsetting rebates completely to the government’s discretion.</li>
+                        <li>By not legislating that the progressive redistribution of the carbon tax revenue, this excludes citizens from having a stake in a policy that affects their daily lives and also leaves the continuity of the offsetting rebates completely to the PAP government’s discretion.</li>
                     </ul>
                 </div>
             </section>
@@ -2908,10 +3085,7 @@
                                 <td><p class="has-text-centered">-3</p></td>
                                 <td>Carbon tax revenues used to finance subsidies/grants for fossil fuel industry</td>
                             </tr>
-                            <tr>
-                                <td><p class="has-text-centered">-3</p></td>
-                                <td>Status quo policy of revenues contributing to overall tax revenue and budget expenditure (undifferentiated)</td>
-                            </tr>
+
 
                             <tr>
                                 <td><p class="has-text-centered">3</p></td>
@@ -3174,8 +3348,8 @@
                     <ul>
                         <li>In 2019, the PAP government <a href="https://www.shell.com.sg/media/2019-media-releases/shell-completes-storage-expansion-at-singapore-refinery.html" target="blank">received</a> an investment from Shell to increase its storage capacity at its Bukom refinery.</li>
                         <li>In the same year, it <a href="https://www.exxonmobil.com.sg/News/Newsroom/News-releases/2019/0402_ExxonMobil-invests-in-Singapore-integrated-complex-to-upgrade-product-slate-to-higher-value" target="blank">accepted</a> a multi-billion investment from ExxonMobil to expand its integrated manufacturing complex in Singapore, the company’s largest production facility globally.</li>
-                        <li>Minister Chan Chun Sing has further <a href="https://www.channelnewsasia.com/news/business/exxonmobil-to-expand-singapore-manufacturing-complex-jurong-11405298" target="blank">endorsed</a> ExxonMobil as a “close and trusted partner” of Singapore, and <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">affirmed</a> the government's plans to grow Singapore as an LNG hub</li>
-                        <li>The PAP government’s support of the petrochemical industry is longstanding. For instance, in 2017, Keppel <a href="https://www.businesstimes.com.sg/companies-markets/keppel-signs-deal-with-edb-to-build-gasification-plant-on-jurong-island" target="blank">signed</a> a deal with the Economic Development Board (EDB) to build a gasification plant on Jurong Island. Earlier in 2013, the government <a href="https://www.straitstimes.com/singapore/singapores-first-coal-burning-utility-plant-now-operational" target="blank">gave</a> Tuas Power approval to open Singapore’s first coal-burning facility on Jurong Island</li>
+                        <li>Minister Chan Chun Sing has further <a href="https://www.channelnewsasia.com/news/business/exxonmobil-to-expand-singapore-manufacturing-complex-jurong-11405298" target="blank">endorsed</a> ExxonMobil as a “close and trusted partner” of Singapore, and <a href="https://www.mti.gov.sg/Newsroom/Speeches/2019/10/Speech-by-Minister-Chan-Chun-Sing-at-the-12th-Singapore-International-Energy-Week-2019" target="blank">affirmed</a> the PAP government's plans to grow Singapore as an LNG hub</li>
+                        <li>The PAP government’s support of the petrochemical industry is longstanding. For instance, in 2017, Keppel <a href="https://www.businesstimes.com.sg/companies-markets/keppel-signs-deal-with-edb-to-build-gasification-plant-on-jurong-island" target="blank">signed</a> a deal with the Economic Development Board (EDB) to build a gasification plant on Jurong Island. Earlier in 2013, the PAP government <a href="https://www.straitstimes.com/singapore/singapores-first-coal-burning-utility-plant-now-operational" target="blank">gave</a> Tuas Power approval to open Singapore’s first coal-burning facility on Jurong Island</li>
                     </ul>
                 </div>
 
@@ -3338,14 +3512,14 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>The effect of financial guidelines set by the government remains unclear, despite efforts to do so.</p>
+                    <p>The effect of financial guidelines set by the PAP government remains unclear, despite efforts to do so.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>The Monetary Authority of Singapore (MAS) has <a href="https://www.mas.gov.sg/news/speeches/2019/green-finance-for-a-sustainable-world" target="blank">announced</a> that it will introduce, in 2020, Environmental Risk Management (ENRM) guidelines across the financial sector to set standards on governance, risk management, and disclosure. While this has the potential to discourage investments in fossil fuel assets, details on the guidelines are still pending.</li>
-                        <li>The extent to which the government intends to enforce these standards is also unclear. Amy Khor has <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=oral-answer-2081" target="blank">said</a> that the government “does not interfere or influence [businesses and financial institutions’] individual investment decisions” in response to parliamentary questions about the financing of fossil fuel plants outside Singapore.</li>
+                        <li>The extent to which the PAP government intends to enforce these standards is also unclear. Amy Khor has <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=oral-answer-2081" target="blank">said</a> that the PAP government “does not interfere or influence [businesses and financial institutions’] individual investment decisions” in response to parliamentary questions about the financing of fossil fuel plants outside Singapore.</li>
                         <li>Minister for Education Ong Ye Kung has stated that the MAS has been “<a href="https://www.mas.gov.sg/news/parliamentary-replies/2019/reply-to-cos-cuts-on-gems-corporate-governance-and-sustainable-financing" target="blank">actively working</a> with [its] fund managers” to ensure that environmental, social and governance (ESG) considerations are incorporated into its own investment portfolio, but has not released further details.</li>
                         <li>Several local banks, namely OCBC Bank and DBS Bank, have announced that they will cease financing new coal-fired power plants in any market. However, this is often with the <a href="https://www.straitstimes.com/business/dbs-to-cease-financing-of-new-coal-power-plants" target="blank">condition</a> that they continue on and complete current fossil fuel projects which nevertheless <a href="https://www.eco-business.com/news/ngos-urge-dbs-pull-out-of-risky-indonesian-coal-power-deal/" target="blank">result</a> in significant pollution.</li>
                     </ul>
@@ -3508,13 +3682,13 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>The PAP government has yet to articulate a clear road map that coordinates both public and private actions towards making Singapore a hub for green finance, despite having signalled its support for green investments to turn Singapore into a green finance and circular economy hub. There is also a need to harmonise standards and clarify what the government considers to be “green” or “sustainable”.</p>
+                    <p>The PAP government has yet to articulate a clear road map that coordinates both public and private actions towards making Singapore a hub for green finance, despite having signalled its support for green investments to turn Singapore into a green finance and circular economy hub. There is also a need to harmonise standards and clarify what the PAP government considers to be “green” or “sustainable”.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>According to the NCCS*, the PAP government aims to make Singapore a green finance hub and to develop a circular economy, in which low-carbon and sustainable solutions are to be test-bedded and exported globally. These efforts are intended not only “to grow [Singapore’s] economy and create more jobs for Singaporeans, but also allow [Singapore] to support abatement efforts beyond our shores”. However, the government has yet to produce a clear road map articulating how and when these ambitions will be realised.</li>
+                        <li>According to the NCCS*, the PAP government aims to make Singapore a green finance hub and to develop a circular economy, in which low-carbon and sustainable solutions are to be test-bedded and exported globally. These efforts are intended not only “to grow [Singapore’s] economy and create more jobs for Singaporeans, but also allow [Singapore] to support abatement efforts beyond our shores”. However, the PAP government has yet to produce a clear road map articulating how and when these ambitions will be realised.</li>
                         <li>In 2017, the MAS <a href="https://www.mas.gov.sg/news/speeches/2019/green-finance-for-a-sustainable-world" target="blank">launched</a> the Green Bond Grant Scheme to catalyse the green bond market, under which eligible expenses for obtaining an external review for green bonds would be fully funded, subject to a cap. In February 2019, the grant scheme was <a href="https://www.mas.gov.sg/schemes-and-initiatives/sustainable-bond-grant-scheme" target="blank">expanded</a> to include social and sustainability bonds, and renamed as the Sustainable Bond Grant (SBG) Scheme. The minimum issuance size requirement was lowered and the grant scheme was extended to end May 2023.</li>
                         <li>In November 2019, the MAS further <a href="https://www.todayonline.com/singapore/green-finance-led-spore-can-help-mobilise-global-action-against-climate-change-ong-ye-kung" target="blank">announced</a> a US$2 billion green investments programme (GIP) to support “public market investment strategies that have a strong green focus”. The first investment under the GIP will be a US$100m placement in the Bank for International Settlements’ (BIS) Green Bond Investment Pool (GBIP).</li>
                         <li>Devoting more investment into sustainable initiatives is a welcome move, and the PAP government appears committed to mobilising more capital to drive low-carbon solutions. However, more standardisation and clarification are needed as to what projects are counted as “green”.</li>
@@ -3571,7 +3745,7 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Workers' Party
                     </h3>
-                    <p>The Workers Party has not publicly revealed anything substantial encouraging green investments. During the second reading of the 2018 Carbon Pricing Bill, Leon Perera did ask if the Government would consider “...setting aside part of the funds from the carbon tax into a vehicle like a fund or even a green infrastructure bank offering low-interest loans that has a mission to fund the development, testing and deployment of green technologies in Singapore?” However, that one question in and of itself is not enough for a score to be assigned. </p>
+                    <p>The Workers Party has not made substantial public remarks regarding encouraging green investments.</p>
                 </div>
 
                 <div class="content">
@@ -3855,7 +4029,7 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Worker's Party
                     </h3>
-                    <p>They have consistently expressed support for the government’s existing adaptation plans, while making constructive suggestions as to how to go about doing it. </p>
+                    <p>The WP has consistently expressed support for the government’s existing adaptation policies while making constructive suggestions for improving those policies.</p>
                 </div>
 
                 <div class="content">
@@ -3972,7 +4146,7 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>While some allusions have been made towards climate change’s intergenerational effects, there are few specific measures to address the impact of climate change on social and economic inequity in Singapore. To address this, the government should produce a comprehensive report that assesses vulnerabilities of various social and economic groups to the climate crisis.</p>
+                    <p>While some allusions have been made towards climate change’s intergenerational effects, there are few specific measures to address the impact of climate change on social and economic inequity in Singapore. To address this, the PAP government should produce a comprehensive report that assesses vulnerabilities of various social and economic groups to the climate crisis.</p>
                 </div>
 
                 <div class="content">
@@ -4014,13 +4188,6 @@
                             <tr>
                                 <td><p class="has-text-centered">-3</p></td>
                                 <td>Adaptation policies that will worsen social and economic inequity </td>
-                            </tr>
-
-                            <tr>
-                                <td><p class="has-text-centered">-3</p></td>
-                                <td>
-                                    No position on how adaptation policies deal with social and economic inequity
-                                </td>
                             </tr>
 
                             <tr>
@@ -4516,6 +4683,7 @@
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
+                        <li>In their 2020 manifesto, the WP proposes that Seniors and Persons with Disabilities should receive free access to public transport (p.29).</li>
                         <li>Dennis Tan, in a speech in the <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1329" target="blank">2020 COS Debates</a>, argued that for active mobility to be a serious option, a more extensive network of cycling paths is needed, which will be “directly linked to every HDB block, condominium, private landed house, shop house, office building and industrial building, ensuring direct access for active mobility devices.”</li>
                         <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-836" target="blank">2018 COS MOT</a> speech, Png Eng Huat lauded the increase in quality of life caused by the use of personal mobility aids (PMAs) amongst Singapore’s elderly population. He also called for footpaths to be widened to accommodate PMAs, many of which are heavier and slower than PMDs.</li>
                         <li>Since 2006, the WP has been calling for an <a href="https://www.wp.sg/overhauling-singapores-public-transport-model/" target="blank">overhaul</a> of Singapore’s public transport model where public transport is brought under the state and run as a public good, in order to improve performance and lower fares.</li>
@@ -4930,17 +5098,17 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>Singapore’s unique socio-political and cultural context has limited the emergence of movements that present dissenting views. However, the government does indeed support select ground-up initiatives, especially youth-led ones, through various forms.</p>
+                    <p>Singapore’s unique socio-political and cultural context has limited the emergence of movements that present dissenting views. However, the PAP government does indeed support select ground-up initiatives, especially youth-led ones, through various forms.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>The government is not always agreeable towards <a href="https://www.straitstimes.com/opinion/singapore-does-not-need-sycophants-it-needs-loving-critics" target="blank">differing opinions and views</a> in Singapore. People have called for the government <a href="https://www.straitstimes.com/politics/liberal-education-makes-for-better-citizens-nmp" target="blank">to expand</a> liberal education in Singapore so as to develop more critical Singaporeans.</li>
+                        <li>The PAP government is not always agreeable towards <a href="https://www.straitstimes.com/opinion/singapore-does-not-need-sycophants-it-needs-loving-critics" target="blank">differing opinions and views</a> in Singapore. People have called for the PAP government <a href="https://www.straitstimes.com/politics/liberal-education-makes-for-better-citizens-nmp" target="blank">to expand</a> liberal education in Singapore so as to develop more critical Singaporeans.</li>
                         <li>Though contentious, Singapore ranks low on the <a href="https://www.mci.gov.sg/pressroom/news-and-stories/pressroom/2004/11/mcis-response-to-pq-on-press-freedom" target="blank">world press freedom ranking report</a>.</li>
                         <li>Additionally, laws that have a broad reach such as the <a href="https://sso.agc.gov.sg/Act/POA2009" target="blank">Public Order Act</a> can create uncertainties in movement-building and the <a href="https://www.channelnewsasia.com/news/singapore/yellow-ribbon-run-anti-death-penalty-t-shirts-police-investigate-11914002" target="blank">vocalising of opinions.</a></li>
-                        <li>However, the government does <a href="https://www.mewr.gov.sg/news/speech-by-mr-masagos-zulkifli--minister-for-the-environment-and-water-resources--at-the-committee-of-supply-debate--4-march-2020" target="blank">support</a> select initiatives through various means such as <a href="https://www.nyc.gov.sg/en/initiatives/grants/young-changemakers/" target="blank">grant schemes</a>.There are several examples of how the government supports these ground-up movements. eg. The “<a href="https://www.nyc.gov.sg/en/initiatives/grants/national-youth-fund/" target="blank">National Youth Fund</a> (NYF) supports ground-up youth initiatives to champion community and social causes through partnerships with Youth Sector Organisations (YSO) including youth social enterprises, schools, Institutes of Higher Learning (IHL) and other community partners.”, <a href="https://www.mccy.gov.sg/sparkthenext" target="blank">SG Youth Action Plan</a> with "up to $50,000 in grants to support youth-led innovations", and a $50 million <a href="https://www.mewr.gov.sg/news/new-sg-eco-office-and-50-million-sg-eco-fund-to-promote-environmental-sustainability-in-communities" target="blank">SG Eco Fund</a> to support sustainability projects that nudge people and communities towards environmentally-friendly behaviour.</li>
-                        <li>Additionally, the government has historically <a href="https://www.straitstimes.com/singapore/mps-respond-to-climate-rallygoers-ideas" target="blank">praised and affirmed</a> various ground-up movements</li>
+                        <li>However, the PAP government does <a href="https://www.mewr.gov.sg/news/speech-by-mr-masagos-zulkifli--minister-for-the-environment-and-water-resources--at-the-committee-of-supply-debate--4-march-2020" target="blank">support</a> select initiatives through various means such as <a href="https://www.nyc.gov.sg/en/initiatives/grants/young-changemakers/" target="blank">grant schemes</a>.There are several examples of how the PAP government supports these ground-up movements. eg. The “<a href="https://www.nyc.gov.sg/en/initiatives/grants/national-youth-fund/" target="blank">National Youth Fund</a> (NYF) supports ground-up youth initiatives to champion community and social causes through partnerships with Youth Sector Organisations (YSO) including youth social enterprises, schools, Institutes of Higher Learning (IHL) and other community partners.”, <a href="https://www.mccy.gov.sg/sparkthenext" target="blank">SG Youth Action Plan</a> with "up to $50,000 in grants to support youth-led innovations", and a $50 million <a href="https://www.mewr.gov.sg/news/new-sg-eco-office-and-50-million-sg-eco-fund-to-promote-environmental-sustainability-in-communities" target="blank">SG Eco Fund</a> to support sustainability projects that nudge people and communities towards environmentally-friendly behaviour.</li>
+                        <li>Additionally, the PAP government has historically <a href="https://www.straitstimes.com/singapore/mps-respond-to-climate-rallygoers-ideas" target="blank">praised and affirmed</a> various ground-up movements</li>
                     </ul>
                 </div>
 
@@ -4997,6 +5165,7 @@
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
                         <li>The WP has repeatedly spoken out and voted against policies that arguably minimise the space for public discourse, such as the <a href="https://www.straitstimes.com/politics/parliament-workers-party-opposes-proposed-law-on-fake-news-pritam-singh" target="blank">Protection from Online Falsehoods and Manipulation Bill</a>, <a href="https://www.straitstimes.com/politics/ban-on-party-political-films-should-stay-chee-hong-tat" target="blank">Films Act</a>, <a href="http://www.wp.sg/statement-on-the-debate-in-parliament-on-the-administration-of-justice-protection-act/" target="blank">Administration of Justice (Protection) Act</a>, the <a href="https://www.straitstimes.com/politics/workers-party-opposes-bill-to-amend-criminal-detention-law-calls-changes-unnecessary" target="blank">Criminal Law (Temporary Provisions) Bill</a>, and the <a href="https://www.todayonline.com/singapore/safeguards-place-new-police-special-powers-can-be-used-josephine-teo" target="blank">Public Order and Safety (Special Powers) Bill</a>.</li>
+                        <li>In its <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">2020 manifesto</a>, the WP proposed a series of measures aimed at fostering greater democractic participation, like lowering the vote age to 18, safeguarding public institutions, strengthening legislative insights, and implementing media reforms (34)</li>
                         <li>In a parliament debate, WP secretary-general Pritam Singh criticised the unfair negative aspersions cast on “loving critics” of Singapore, highlighting the numerous contributions such critics have made to society.</li>
                     </ul>
                 </div>
@@ -5108,13 +5277,13 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>There is still a lack of transparency with regards to releasing data and key findings from public consultations. However, it must be recognised that the government does engage the public and other civil society groups on various socio-political issues.</p>
+                    <p>There is still a lack of transparency with regards to releasing data and key findings from public consultations. However, it must be recognised that the PAP government does engage the public and other civil society groups on various socio-political issues.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>There is still a lack of transparency from the government. For instance, there is currently no information on key data that could reflect Singapore’s commitment to combating the climate crisis, such as the amount of investment in overseas coal projects, or a timeline for a green transition, or how the carbon tax has been calculated. This lack of data also prevents the public from keeping the government accountable to targets and metrics.</li>
+                        <li>There is still a lack of transparency from the PAP government. For instance, there is currently no information on key data that could reflect Singapore’s commitment to combating the climate crisis, such as the amount of investment in overseas coal projects, or a timeline for a green transition, or how the carbon tax has been calculated. This lack of data also prevents the public from keeping the PAP government accountable to targets and metrics.</li>
                         <li><a href="https://www.nccs.gov.sg/docs/default-source/default-document-library/singapore's-fourth-national-communication-and-third-biennial-update-repo.pdf" target="blank">2018 BUR</a> report uses statistics from 2014 and more <a href="https://www.channelnewsasia.com/news/singapore/52-5m-tonnes-of-greenhouse-gases-generated-by-singapore-in-2017-11975708" target="blank">updated statistics</a> (2017 figures) on our greenhouse gas emissions were only articulated when prompted. This shows that some data is available but not shared in a timely and proactive manner. The <a href="https://www.straitstimes.com/politics/parliament-govt-to-make-environment-impact-assessments-public-unless-there-are-security" target="blank">EIA Results of Tenga</a> were not disclosed in full</li>
                         <li>Instead of transparency, rhetorical diversions are employed. Data is described as ‘<a href="https://medium.com/@antheaindiraong/efforts-to-reduce-greenhouse-emissions-by-industries-in-singapore-f8e350e827d0" target="blank">sensitive</a>’ (for example, when asked about individual refineries’ emissions following an expansion) or ‘<a href="https://www.channelnewsasia.com/news/singapore/carbon-tax-environment-productive-companies-masagos-12385282?fbclid=IwAR2tX_NvT6KcvV9SKPDRNu_598l-RbDH-nv_Y0Qk1IqdoteTy9WYmzWqxo0" target="blank">not productive</a>’ (when asked about company-specific data on the amount of carbon tax companies are paying).</li>
                         <li>In terms of public engagement, meetings are oftentimes held behind closed doors and only <a href="https://www.nccs.gov.sg/public-consultation/response-to-feedback-on-singapore's-long-term-low-emissions-development-strategy/" target="blank">summaries</a> of key takeaways are produced as opposed to releasing complete data. This may allow for manicuring or selective showcasing.</li>
@@ -5178,6 +5347,8 @@
                         <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1291" target="blank">Bold Green Agenda Speech in the 2020 Budget Debates</a>, Dennis Tan advocated for the NCCS to “consider working with public and private research agencies and researchers on this [climate change] so that easy-to-access facts and evidence on climate change can be in the public domain.” </li>
                         <li>In a <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=written-answer-5275" target="blank">2019 parliamentary question</a>, Pritam Singh asked MEWR if “the NEA life cycle assessment study on plastics be made public in its entirety for the use of academics, professionals and the lay public so as to promote an evidence-based approach to climate solutions suited for the Singapore context.”</li>
                         <li>During the second reading of the <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=bill-248" target="blank">2018 Carbon Pricing Bill</a>, Leon Perera asked if the Government would consider making data on individual large emitters' emissions publicly available. He argued that doing so “would nudge emitters to do better reduce their emissions” and would also allow researchers the “opportunity to access data to track Singapore's progress to meeting our commitments under the Paris Agreement, and to scrutinise the effectiveness of the carbon tax and other green measures amongst other possibilities.” </li>
+                        <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1322">2020 COS Speech</a>, WP MP Daniel Goh recommended that it should be required that Government bodies and large companies conduct annual carbon auditing. He argued that carbon auditing can help organisations “understand their greenhouse inventory, isolate each emission source, and hence, determine and model emission reduction strategies, their payback and viability”. He also advocated for carbon auditing subsidies for companies for the next 10 years. </li>
+                        <li>In its <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">2020 GE Manifesto</a>, the WP also stated that “CPF members must be given transparency on the nature and performance of their money” (13). Additionally, the party also believes that “Documents in the National Archives that are declassified after 25 years from the date of record should be made freely accessible to all.” “This will ensure greater transparency and accountability, and lead to a better understanding of our history” (34).</li>
                     </ul>
                 </div>
 
@@ -5351,6 +5522,7 @@
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
+                        <li>The WP has called for a nationwide public education campaign to raise awareness on the effects of single use plastics and sustainable alternatives in its 2020 GE manifesto (30).</li>
                         <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1291" target="blank">Bold Green Agenda Speech in the 2020 Budget Debates</a>, Dennis Tan said, “To encourage Singaporeans, we should ramp up our public education to reach out to Singaporeans of all ages and educational levels and in different languages [...] We should even encourage easy accessibility to the latest research on climate change by the average citizen. Translating this research into readable, digestible commentaries for Singaporeans gives further buy-in and builds awareness.”</li>
                     </ul>
                 </div>
@@ -5741,7 +5913,7 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>Environmental Impact Assessments (EIA) are neither mandatory by law nor are there penalties when environmental impact mitigation measures are not implemented, despite the government’s acknowledgement of the need to incorporate biodiversity assessments into their land use decisions.</p>
+                    <p>Environmental Impact Assessments (EIA) are neither mandatory by law nor are there penalties when environmental impact mitigation measures are not implemented, despite the PAP government’s acknowledgement of the need to incorporate biodiversity assessments into their land use decisions.</p>
                 </div>
 
                 <div class="content">
@@ -5925,7 +6097,7 @@
                         </td>
                         <td>
                             <p class="has-text-centered">
-                                <button class="button modal-button" data-target="#waste1b" aria-haspopup="true">NA</button>
+                                <button class="button modal-button" data-target="#waste1b" aria-haspopup="true">+1</button>
                             </p>
                         </td>
                         <td>
@@ -5968,9 +6140,9 @@
                             </p>
                         </td>
                         <td>
-                            <p class="has-text-centered" style=" font-size: large;">
+                            <p class="has-text-centered" style="background-color: #e8efbc; font-size: larger;">
                                 <br>
-                                <b>+2</b>
+                                <b>+3</b>
                                 <br>
                                 <br>
                             </p>
@@ -6085,12 +6257,14 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Worker's Party
                     </h3>
-                    <p>The WP has made no particular mention of how it will use waste reduction policies to target carbon emissions</p>
+                    <p>The WP’s manifesto connects waste to carbon emissions, and suggests that the carbon footprints of different products be published to encourage targeted waste reduction.</p>
                 </div>
 
                 <div class="content">
-                    <h3 class="title is-4"></h3>
-                    <ul></ul>
+                    <h3 class="title is-4">Elaboration</h3>
+                    <ul>
+                        <li>The <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">2020 manifesto</a> states that “The carbon footprint for different products using sustainable, non-plastic materials should be published, together with full disclosure of the scientific methodology used to arrive at the numbers” (p.31)</li>
+                    </ul>
                 </div>
 
 
@@ -6197,7 +6371,7 @@
                         <img src="img/pap_logo.png" alt="climate ambitions" width="25px">
                         People's Action Party
                     </h3>
-                    <p>Singapore has a high waste generation rate. Yet, current policies prioritise waste treatment eg. recycling, as opposed to reducing waste generation. More binding regulations could be implemented to quickly reduce waste generation.</p>
+                    <p>Singapore has a high waste generation rate. Yet, the PAP government’s current policies prioritise waste treatment eg. recycling, as opposed to reducing waste generation. More binding regulations could be implemented to quickly reduce waste generation.</p>
                 </div>
 
                 <div class="content">
@@ -6257,18 +6431,18 @@
                         <img src="img/wp_logo.png" alt="climate ambitions" width="25px">
                         Workers' Party
                     </h3>
-                    <p>The WP has consistently pushed for more policies to reduce plastic waste, such as a plastic bag charge which the incumbent government has not supported. The party has also suggested some initiatives targeted at food waste. </p>
+                    <p>The WP has called for a single use plastic ban in its 2020 manifesto. It has also consistently pushed more for policies to reduce plastic waste in parliament. 
+                        The party has also suggested some initiatives targeted at food waste.</p>
                 </div>
 
                 <div class="content">
                     <h3 class="title is-4">Elaboration</h3>
                     <ul>
-                        <li>Pritam Singh advocated for a plastic bag charge for all retailers to reduce plastic bag waste in his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1294" target="blank">2020 Budget Speech</a></li>
-                        <li>Daniel Goh mooted the idea of a community led recycling programme by mobilising local grassroots in the same <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1322" target="blank">2020 COS MEWR Debate</a>.</li>
-                        <li>Dennis Tan also asked the state if it would consider either a ban or additional disincentives on styrofoam products in the same debate.</li>
+                        <li>The <a href="https://d3bnzwrhehvhbjiwmja.s3-ap-southeast-1.amazonaws.com/The+Workers+Party+Manifesto+2020.pdf" target="blank">2020 manifesto</a> calls for a single-use plastic charge and micro-plastics ban phased over 5 years, and banning styrofoam where possible (p.30-31).</a></li>
+                        <li>Daniel Goh mooted the idea of a community led recycling programme by mobilising local grassroots in the<a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1322" target="blank">2020 COS MEWR Debate</a>.</li>
                         <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-1156" target="blank">2019 MEWR COS cut</a>, Daniel Goh advocated further green education for the wider public on the dos and don'ts of recycling. He also called for MEWR to tackle new consumption patterns brought about by online shopping, suggesting a packaging tax. He also asked if MEWR would consider working with BCA to “...to promote the reusing of waste by our construction companies for their projects?”</li>
-                        <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-834" target="blank">2018 MEWR COS cut</a>, Leon Perera asked if the Government was considering “....imposing labelling requirements or a ban on industrially-produced microbeads as in the US and UK?” He also asked what the Government’s plan was for reducing overall plastic waste consumption.</li>
-                        <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-834" target="blank">2018 MEWR COS cut, Dennis Tan</a> asked if the Government had any plan to reduce the use of plastic disposables in Singapore, and also if the viability of biodegradable plastic carrier bags had been studied and considered.</li>
+                        <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-834" target="blank">2018 MEWR COS cut</a>, Leon Perera asked if the government was considering “....imposing labelling requirements or a ban on industrially-produced microbeads as in the US and UK?” He also asked what the Government’s plan was for reducing overall plastic waste consumption.</li>
+                        <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-834" target="blank">2018 MEWR COS cut, Dennis Tan</a> asked if the government had any plan to reduce the use of plastic disposables in Singapore, and also if the viability of biodegradable plastic carrier bags had been studied and considered.</li>
                         <li>In the same COS debate, Daniel Goh asked if the NEA was monitoring waste being produced by the food delivery industry. </li>
                         <li>In his <a href="https://sprs.parl.gov.sg/search/sprs3topic?reportid=budget-731" target="blank">2016 COS MEWR cut</a>, Daniel Goh called for food recycling to be made more accessible at town centres by having the NEA expand pilot food recycling projects to cover a wider catchment area that would include private coffee shops and grocery stores. He also called for NEA to encourage food waste recycling at clusters of F&B joints, which he noted would present more challenges. </li>
                     </ul>
