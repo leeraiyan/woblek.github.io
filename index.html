@@ -33,34 +33,61 @@
             <a href="https://speakforclimate.github.io"><img src="img/s4clogo.png" alt="s4c logo"width="55" height="45" style="padding-top: 5px;"></a> -->
         </div>
     </nav>      
-    <section class="section" style="background-image: url('img/backgroundreduced.png'); background-size: cover; background-repeat: no-repeat; height: 400px;">
+    <section class="section" style="background-image: url('img/backgroundreduced.png'); background-size: cover; background-repeat: no-repeat; height: 300px;">
+        <div class="container has-text-centered" >
+            <br>
+            <img src="img/climate scorecard.png" alt="climate scorecard">
+            <a href="https://sgclimaterally.com"><img src="img/sgcr2 white.png" alt="sgcr logo"width="55" height="55" style="padding-top: 5px; padding-right: 15px;"></a>
+            <a href="https://speakforclimate.github.io"><img src="img/s4clogo.png" alt="s4c logo"width="55" height="45" style="padding-top: 5px;"></a>
+            <!-- <h1 class="title has-text-centered" style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:90px; color:white;" >CLIMATE SCORECARD</h1> -->
+        </div>
 
-    <a href="https://sgclimaterally.com"><img src="img/sgcr2 white.png" alt="sgcr logo" width="50" height="55" style="padding-top: 5px; padding-right: 10px;"></a>
-    <a href="https://speakforclimate.github.io"><img src="img/s4clogo.png" alt="s4c logo" width="55" height="45" style="padding-top: 5px;"></a>
+    <!-- <a href="https://sgclimaterally.com"><img src="img/sgcr2 white.png" alt="sgcr logo" width="50" height="55" style="padding-top: 5px; padding-right: 10px;"></a>
+    <a href="https://speakforclimate.github.io"><img src="img/s4clogo.png" alt="s4c logo" width="55" height="45" style="padding-top: 5px;"></a> -->
 
         
         <div class="container is-fullwidth has-text-centred">
             <div class="hero-body">
-                <div class="container has-text-centered">
-                    <br>
-                    <img src="img/climate scorecard.png" alt="climate scorecard">
-                    <!-- <h1 class="title has-text-centered" style="font-family:Open Sans,Arial, sans-serif;font-style: italic;font-weight: bold;font-size:90px; color:white;" >CLIMATE SCORECARD</h1> -->
-                </div>
+
             </div>
         </section>
         </div>
     </section>
 
 <!-- Summary Section -->
+
     <section class="section" id="summary">
-        <div class="container has-text-centered">
-            <div class="btn-group btn-group-lg">
-                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 10px; height: 40px;" data-target="#preamble" aria-haspopup="true">Preamble</button>
-                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 10px; height: 40px"data-target="#analysis" aria-haspopup="true">Analysis</button>
-                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 10px; height: 40px"data-target="#otherParties" aria-haspopup="true">Other Parties</button>
-                <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 60px;"data-target="#FAQ" aria-haspopup="true">FAQ</button>
-            </div>
-        </div>
+        <div class="ad">
+            <template class="ad__mobile">
+                <div class="container has-text-centered">
+                    <div class="btn-group ">
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 60px; height: 30px; font-size: small;" data-target="#preamble" aria-haspopup="true">Preamble</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 60px; height: 30px; font-size: small"data-target="#analysis" aria-haspopup="true">Analysis</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 80px; height: 30px; font-size: small"data-target="#otherParties" aria-haspopup="true">Other Parties</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 30px; height: 30px; font-size: small"data-target="#FAQ" aria-haspopup="true">FAQ</button>
+                    </div>
+                </div>
+            </template>
+            <template class="ad__desktop">
+                <div class="container has-text-centered">
+                    <div class="btn-group ">
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 100px; height: 40px;" data-target="#preamble" aria-haspopup="true">Preamble</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 100px; height: 40px"data-target="#analysis" aria-haspopup="true">Analysis</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 140px; height: 40px"data-target="#otherParties" aria-haspopup="true">Other Parties</button>
+                        <button class="button is-small is-success is-medium modal-button" style="background-color: #609b59; width: 60px; height: 40px"data-target="#FAQ" aria-haspopup="true">FAQ</button>
+                    </div>
+                </div>
+            </template>
+            <script>
+              const isMobile = matchMedia('(max-device-width: 20em)').matches;
+              const ad = document.currentScript.closest('.ad');
+              const content = ad
+                .querySelector(isMobile ? '.ad__mobile' : '.ad__desktop')
+                .content;
+              
+              ad.appendChild(document.importNode(content, true));
+            </script>
+          </div>
         <br>
         <br>
 
