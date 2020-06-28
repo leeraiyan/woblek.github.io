@@ -79,7 +79,7 @@
                 </div>
             </template>
             <script>
-              const isMobile = matchMedia('(max-device-width: 20em)').matches;
+              const isMobile = matchMedia('(max-device-width: 500px)').matches;
               const ad = document.currentScript.closest('.ad');
               const content = ad
                 .querySelector(isMobile ? '.ad__mobile' : '.ad__desktop')
