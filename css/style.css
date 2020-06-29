@@ -10,6 +10,13 @@ body, button, input, select, textarea {
         display: none;
     }
 }
+@media (max-width: 600px) 
+{
+    #climateAmbitionTable
+    {
+        width: 400px;
+    }
+}
 .sticky {
   position: absolute;
   top: 45px;
