@@ -14,7 +14,7 @@ body, button, input, select, textarea {
 {
     #climateAmbitionTable
     {
-        max-width: 200px;
+        width: 10px;
         background-color: blue;
     }
 }
