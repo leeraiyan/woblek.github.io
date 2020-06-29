@@ -14,7 +14,7 @@ body, button, input, select, textarea {
 {
     #climateAmbitionTable
     {
-        width: inherit;
+        max-width: 200px;
     }
 }
 .sticky {
