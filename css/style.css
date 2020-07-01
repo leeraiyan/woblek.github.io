@@ -10,8 +10,6 @@ body, button, input, select, textarea {
         display: none;
     }
 }
-
-
 .sticky {
   position: absolute;
   top: 45px;
