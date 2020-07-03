@@ -13,6 +13,17 @@ p.example {
   }
 }
 
+p.header {
+  font-size: medium;
+}
+
+@media screen and (max-width: 600px) {
+  p.header {
+    font-size: x-small;
+  }
+}
+
+
 @media (max-width: 900px) 
 {
     summaryTab
